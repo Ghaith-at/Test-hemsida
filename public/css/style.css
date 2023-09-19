@@ -1,0 +1,51 @@
+body {
+    background-color:rgb(173, 173, 173);
+    margin: 0;
+
+}
+
+.bilder {
+    background-color: rgb(196, 121, 162);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.text-cont {
+    flex: 1;
+    text-align: right;
+}
+
+.ankät {
+    text-align: center;
+    background-color: rgb(173, 173, 173);
+    margin: 2em;
+}
+
+label, input[type="name"], input[type="email"], input[type="Submit"], input[typte="färg"] {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.omoss {
+    background-color: rgb(196, 121, 162);
+}
+
+.ankät form input, .ankät form textarea {
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+}
+
+/* .ankät form textarea {
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+} */
+
+

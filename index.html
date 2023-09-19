@@ -5,9 +5,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cake Shop</title>
         <!-- Add any CSS or meta tags here -->
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <h1>Cake Shop</h1>
-        <p>Välkommen till Cake Shop</p>
+    <body>                                          
+        <h1 align="center"> Cake Shop</h1>
+        <h2 align="center"> Välkommen till Cake Shop</h2>
+        <hr> 
+        <h1 align="center"> Här kommer olika bilder på våra producter </h1>
+        
+        <div class="bilder"> 
+            <br><br>
+            <img src="img/757.jpg" alt="your img">
+
+            <div class="text-cont">
+                <h2> Vi kan göra ditt dröm brölopstårta! </h2>
+            </div>
+            <br>
+        </div>
+
+        <div class="bild1">
+            <img src="img/11.jpg" width="" height="500">
+            <img src="img/22.jpg" width="" height="500">
+            <img src="img/33.jpg" width="" height="500">
+            <img src="img/44.jpg" width="" height="500">
+
+        </div>
+        
+        <div class="ankät">
+
+            <form action="process_form.php" method="post">
+
+                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+        
+
+                <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+        
+
+                <input type="text" id="message" name="message" placeholder="message" required><br><br>
+
+
+                <textarea id="tillag" name="tillag" placeholder="I den rutan kan du skriva allt du vill ha på din tårta samt alla detaljer och de olika smaker du vill ha på din tårta" required></textarea>
+                <br>
+
+                <label for="file">Lägg en insprations bilder</label>
+                <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png"> 
+                <br>
+        
+                <input type="submit" value="Submit">
+            </form>
+
+        </div> 
+
+
+        <div class="omoss">
+            <h1> OM OSS </h1>
+            <h3> Vi är ett nytt företag på marknaden som kan desaigna din dröm tårta.<br>
+                Det är och bara fylla på vad du vill att din tårta ska ha och en bild kanke på hur <br> du vill att den ska se ut. 
+                För mer införmation kan du kontakta oss genom 
+            </h3>
+            
+            <h3><b>Mobilnummer:</b>079575737</h3>
+            <h3><b>Gmail:</b>ghaith.ataya@gmail.com</h3>
+            <h3><b>Insta:</b>Cake shop</h3>
+
+        </div>
+
+
+        <!-- node index,js   starta server -->
+
+
+
+        
     </body>
 </html>
